@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <meta charset="utf-8">
+
+        
+        <title> VIRTUAL SELF </title>
+        
+    </head>
+    
+    <body style="overflow-y: visible;">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="js/AIngel.js"></script>
+        
+        <script>
+                $(function() {
+                    $(document).keypress(function(event) {
+                        var ch = String.fromCharCode(event.keyCode || event.charCode);
+                        switch (ch) {
+                            case ' ':
+                                window.location.href = 'A.html';
+                                break;
+                        }
+                    });
+                });
+        </script>
+     
+        
+        <audio autoplay>
+            <source src="Audio/Particle%20Arts%20(Original%20Mix).mp3" type="audio/mp3">
+        </audio>
+            
+                <div class="container-fluid" id="splash-screen">
+                        
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            
+                                <div>
+                                
+                                    <center>
+                                        
+                                    <img class="img-fluid" id="splash1" src="Pictures/images.jpeg" alt="Embrace the virtuality of this world.">
+                                        
+                                    <div class="container-fluid" style="padding-top: 20%;"></div>
+
+                                    <a href="A.html"><img class="img-fluid" id="splash2" src="Pictures/tap.png"></a>
+                                    
+                                    </center>
+                                    
+                                    
+                                </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
+
+    </body>
+</html>

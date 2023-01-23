@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    
+}
+
+#infinite-sky{
+    font-family: Cambria Math;
+    color: floralwhite;
+    font-style: italic;
+
+}
+
+
+
+#splash1{
+    
+    padding-top: 25%;
+    transform: scale(1);
+    animation: bounce 2s ease-in-out infinite;
+     
+}
+
+@keyframes bounce{
+    
+    0%{transform: translate(0,0)}
+    50%{transform: translate(0,-3%)}
+    100{transform: translate(0,0)}
+}
+
+
+#splash2{
+   
+    
+    animation: fade 1s ease-in-out infinite;
+    
+    
+}
+@keyframes fade{
+    0%{opacity: 0}
+    50%{opacity: 1}
+    100%{opacity: 0}
+}
+
+div#splash{
+    background-color: black;
+    opacity: 1;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    width; 100%;
+    height: 1600px;
+    
+    
+}
+
+#divsplash > #divloading{
+    color: #FFF;
+    width: 120px;
+    height: 24px;
+    margin: 300px auto;
+    
+    
+}
+

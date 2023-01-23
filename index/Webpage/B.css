@@ -1,0 +1,139 @@
+body{
+    
+    background-color: black;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#technicangel{
+    
+    padding-top: 10%;
+    animation: bounce 2s ease-in-out infinite;
+    
+}
+
+#technicangel:{
+    
+
+}
+
+@keyframes bounce{
+    
+    0%{padding-bottom: 0}
+    50%{padding-top: 9%;
+    }
+    100%{padding-bottom: 0}
+}
+
+#title{
+    
+    padding-top: 40%;
+    font-family: "Cambria Math";
+    font-style: italic;
+    color: antiquewhite;
+    animation: fade 1s ease-in-out infinite;
+    
+}
+
+h3#text{
+    
+    text-align: left;
+    color: antiquewhite;
+    font-family: "Cambria Math";
+    
+    
+}
+
+h4#text{
+    
+    text-align: center;
+    color: lightgray;
+    font-family: "Cambria Math";
+    
+}
+
+h5#text{
+    
+    text-align: right;
+    color: grey;
+    font-family: "Cambria Math";
+    
+}
+
+@keyframes fade{
+    
+    0%{opacity: 1;}
+    50%{opacity: 0.60;}
+    100%{opacity: 1;}
+    
+}
+
+#backbutton{
+
+    padding-top: 40%;
+
+}
+
+#nextbutton{
+
+    padding-left: 500;
+    transform: scale(.25);
+    animation: fadetwo 1s ease-in-out infinite;
+
+}
+
+@keyframes fadetwo{
+    
+    0%{opacity: 1;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+    
+}
+
+#mySidenav a {
+
+    position: absolute;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#blog {
+    top: 80px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#projects {
+    top: 140px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#contact {
+    top: 200px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}

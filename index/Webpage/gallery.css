@@ -1,0 +1,85 @@
+body{
+
+    background-image: url(Pictures/bg.gif);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:difference;
+    overflow-y: hidden;
+}
+
+#sidenav a {
+
+    position: fixed;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 0px 50px 0;
+}
+
+#sidenav a:hover {
+    left: 0;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#about {
+    top: 20px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#blog {
+    top: 80px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#music {
+    top: 140px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#gallery {
+    top: 200px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#home {
+    top: 260px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#title{
+    
+    font-family: "Cambria Math";
+    color: black;
+    text-shadow: white 0px 5px 10px;
+    animation: float 1s ease-in-out infinite;
+    
+}
+
+@keyframes float{
+    
+    0%{transform: translate(0 , 0)}
+    50%{transform: translate(0 , 5%)}
+    100%{transform: translate(0 , 0)}
+    
+}
+
+#nextbutton1{
+    
+    
+    
+}

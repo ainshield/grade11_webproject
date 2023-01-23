@@ -1,0 +1,176 @@
+body{
+
+    background-image: url(Pictures/bg.gif);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:difference;
+    overflow-y: hidden;
+}
+
+#sidenav a {
+
+    position: fixed;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 0px 50px 0;
+}
+
+#sidenav a:hover {
+    left: 0;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#about {
+    top: 20px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#blog {
+    top: 80px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#music {
+    top: 140px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#gallery {
+    top: 200px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#home {
+    top: 260px;
+    background-color: transparent;
+    font-family: "Cambria Math";
+    font-style: italic;
+}
+
+#text{
+    
+    font-family: "Cambria Math";
+    
+}
+
+#A{
+
+}
+
+#B{
+    
+    
+    
+}
+
+#C{
+    
+    background-color: black;
+    padding-bottom: 10%;
+    opacity: 0.9;
+
+    
+}
+
+#title{
+    text-shadow: white, 10px, 10px;   
+    color: black;
+    text-align: center;
+    padding-top: 10%;
+    text-shadow: white  0px 5px 5px;
+    animation: float 2s infinite;
+}
+
+@keyframes float{
+    
+    0%{transform: translate(0 , 0)}
+    50%{transform: translate(0 , 5%)}
+    100%{transform: translate(0 , 0)}
+    
+}
+
+#title1{
+    
+    padding-top: 20%;
+    font-family: "Cambria Math";
+    color: antiquewhite;
+    text-shadow: 0px 0px 20px;
+    animation: fade 1.5s ease-in-out infinite;
+}
+
+@keyframes fade{
+    
+    0%{opacity: 1}
+    50%{opacity: 0.5}
+    100%{opacity: 1}
+    
+}
+
+#beatport{
+
+    transition: transform .5s;
+    
+}
+
+#beatport:hover{
+    
+    transform: scale(1.3);
+    
+}
+
+#itunes{
+    
+    transition: transform .5s;
+    
+}
+
+#itunes:hover{
+    
+    transform: scale(1.3);
+    
+}
+
+#soundcloud{
+    
+    transition: transform .5s;
+    
+}
+
+#soundcloud:hover{
+    
+    transform: scale(1.3);
+    
+}
+#spotify{
+    
+    transition: transform .5s;
+    
+}
+
+#spotify:hover{
+    
+    transform: scale(1.3);
+    
+}
+
+#copyrights {
+    
+    padding-top: 10%;
+    font-family: "Cambria Math";
+    color: darkgray;
+    
+}
